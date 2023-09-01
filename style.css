@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container,
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    margin-top: 25px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.register-tittle {
+    margin-top: 25px;
+}
+
+input,
+button {
+    margin-top: 10px;
+}
+
+.agree {
+    padding-bottom: 15px;
+}
+
+#show-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.confirmDataClient {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+}

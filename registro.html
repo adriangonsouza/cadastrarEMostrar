@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-iconic@1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <title>Registro de Cliente</title>
+</head>
+
+<body>
+    <div class="all-container">
+        <div class="register-container">
+            <header>
+                <h1 class="register-tittle">Cadastre-se</h1>
+            </header>
+
+            <div class="input-container">
+                <input type="text" id="name" placeholder="Nome Completo" required>
+                <input type="email" placeholder="E-mail" id="email" required>
+                <input type="datetime" placeholder="Data de Nascimento" id="birthday" required>
+                <input type="tel" placeholder="Telefone" id="phone" required>
+                <input type="password" placeholder="Insira sua senha" id="password" required>
+                <input type="password" placeholder="Confirme sua senha" id="confirmPassword" required>
+                <button id="register">Cadastrar</button>
+            </div>
+
+            <div class="agree">
+                <input type="checkbox" name="agree-terms" id="terms"><label for="agree-terms">Aceito todos os <a
+                        href="#">Termos de Contrato.</a></label>
+            </div>
+        </div>
+    </div>
+
+    <div id="show-client"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
